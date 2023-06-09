@@ -6,8 +6,8 @@ class HomeController {
       nome: 'Jorge',
       sobrenome: 'Henrique',
       email: 'jh@hotmail.com',
-      idade: 1123,
-      peso: 233,
+      idade: 25,
+      peso: 33,
       altura: 2.1,
     });
     res.json(novoAluno);
