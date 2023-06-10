@@ -17,5 +17,6 @@ module.exports = {
     'no-unused-vars': 'off',
     'consistent-return': 'off',
     camelcase: 'off',
+    'no-undef': 'off',
   },
 };

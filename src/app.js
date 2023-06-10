@@ -1,11 +1,13 @@
 import express from 'express';
 import { resolve } from 'path';
 
-import homeRoutes from './src/routes/homeRoutes';
-import userRoutes from './src/routes/userRoutes';
-import tokenRoutes from './src/routes/alunoRoutes';
-import alunoRoutes from './src/routes/tokenRoutes';
-import fotoRoutes from './src/routes/fotoRoutes';
+import './database';
+
+import homeRoutes from './routes/homeRoutes';
+import userRoutes from './routes/userRoutes';
+import tokenRoutes from './routes/alunoRoutes';
+import alunoRoutes from './routes/tokenRoutes';
+import fotoRoutes from './routes/fotoRoutes';
 
 class App {
   constructor() {
